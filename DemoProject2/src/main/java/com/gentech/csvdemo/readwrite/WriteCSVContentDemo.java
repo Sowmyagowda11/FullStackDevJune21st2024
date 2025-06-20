@@ -15,7 +15,7 @@ public class WriteCSVContentDemo {
 		
 		try
 		{
-			fw=new FileWriter("E:\\Example\\Employees.csv");
+			fw=new FileWriter("D:\\Excel\\Employees.csv");
 		}catch(Exception e)
 		{
 			e.printStackTrace();
