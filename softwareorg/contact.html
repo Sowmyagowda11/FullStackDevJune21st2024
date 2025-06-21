@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Organization</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- -----Nav bar component---- -->
+    <nav class="navbar navbar-expand-lg" style="background-color: blue;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bolder" href="index.html">Vijay Software</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="services.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="about.html">About Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- -----End of Nav bar component---- -->
+
+    <!-- ----- container-fluid --------- -->
+    <div class="container-fluid">
+        <!-- ------ contact form ---- -->
+        <div class="row justify-content-evenly mt-4" style="background-color: #f1f1f1;">
+            <h5 class="text-center">Contact Us</h5>
+            <div class="col-md-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="email" class="form-control" id="name" placeholder="Full Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Id">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Describe Youself"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-success">Reset</button>
+                </form>
+            </div>
+            <div class="col-md-5">
+                <h5>Address</h5>
+                <p>
+                    sowmya Software <br />
+                    Attigupe Metro Station <br />
+                    Vijayanagar 2nd Pahse <br />
+                    Bangalore -560023 <br />
+                    <i class="bi bi-telephone-outbound"></i> : 080-234-567-123
+                </p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1579170934333!2d77.53079380869772!3d12.961744987299944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f0777fcdb13%3A0xe29d677232e1a97f!2sAttiguppe%20Metro%20Entrance(%20towards%20Chandra%20Layout)!5e0!3m2!1sen!2sin!4v1724385362936!5m2!1sen!2sin" style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <!-- ------End of contact form ---- -->
+        <!-- ----- footer Bar ---- -->
+        <div class="row justify-content-evenly bg-dark mt-5">
+            <div class="col-md-3 text-white">
+                <h5>sowmya Software</h5>
+                <p>You can't creatively help a business until you know how it works!
+                </p>
+            </div>
+            <div class="col-md-3 text-white">
+                <h5>Important Links</h5>
+                <p>
+                    <a href="index.html" class=" text-decoration-none text-white">Home</a> <br />
+                    <a href="services.html" class=" text-decoration-none text-white">Services</a> <br />
+                    <a href="contact.html" class=" text-decoration-none text-white">Contact Us</a> <br />
+                    <a href="about.html" class=" text-decoration-none text-white">About Us</a> <br />
+                </p>
+            </div>
+            <div class="col-md-3 text-white">
+                <h5>Address</h5>
+                <p>
+                  sowmya Software <br />
+                    Attigupe Metro Station <br />
+                    Vijayanagar 2nd Pahse <br />
+                    Bangalore -560023 <br />
+                    <i class="bi bi-telephone-outbound"></i> : 080-234-567-123
+                </p>
+                
+            </div>
+        </div>
+        <!-- -----End Of footer Bar ---- -->
+        <!-- ---- footer ------ -->
+        <div class="row">
+            <div class="col-12 text-center" style="background-color: blue; height: 25px;">
+                <p class="text-white">All Rights Reserved Vijay Software @2024</p>
+            </div>
+        </div>
+        <!-- ----End Of footer ------ -->
+        <!-- ----- End of container fluid div tag ---- -->
+    </div>
+    <!-- ----- End container-fluid --------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
